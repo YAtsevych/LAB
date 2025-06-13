@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+#main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+#start-btn,
+#game-restart-btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+#game-restart-btn {
+  font-size: 35px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#game-container {
+  display: flex;
+  flex-direction: row;
+}
+#game-screen {
+  display: grid;
+
+  grid-template-columns: repeat(5, 100px);
+  margin-top: 50px;
+  margin-left: 250px;
+}
+#game-time {
+  font-size: 45px;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+.game-item {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  border: 2px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #fff;
+  cursor: pointer;
+}
+.type1 {
+  color: #e91e63; /* яркий розовый */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.type2 {
+  color: #4caf50; /* зелёный */
+  font-size: 2em;
+  font-style: italic;
+}
+
+.type3 {
+  color: #ff9800; /* оранжевый */
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.type4 {
+  color: #03a9f4; /* голубой */
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.type5 {
+  color: #9c27b0; /* фиолетовый */
+  font-size: 1.8em;
+  font-family: 'Courier New', monospace;
+}
